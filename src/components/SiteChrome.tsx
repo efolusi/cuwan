@@ -43,6 +43,7 @@ export function SiteFooter({ t, locale }: { t: Dictionary; locale: Locale }) {
           </span>
         </div>
         <p>{t.footer.note}</p>
+        <p>{t.footer.rights}</p>
       </div>
     </footer>
   )

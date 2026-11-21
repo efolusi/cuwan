@@ -33,7 +33,7 @@ export type Dictionary = {
   guardrails: { eyebrow: string; title: string; lede: string; items: Array<{ title: string; body: string }> }
   how: { eyebrow: string; title: string; steps: Array<{ title: string; body: string }> }
   closing: { title: string; lede: string; cta: string }
-  footer: { product: string; legal: string; note: string }
+  footer: { product: string; legal: string; note: string; rights: string }
   privacy: { title: string; lede: string; sections: Array<{ title: string; body: string }> }
   terms: { title: string; lede: string; sections: Array<{ title: string; body: string }> }
 }
@@ -128,6 +128,7 @@ export const copy: Record<Locale, Dictionary> = {
       product: 'Product of Efolusi',
       legal: 'Legal',
       note: 'Exchange API keys never leave the Cuwan app. This site holds marketing and legal pages only.',
+      rights: '© 2026 PT Efolusi Dunia Teknologi. Site source is a Meridian reference implementation.',
     },
     privacy: {
       title: 'Privacy',
@@ -259,6 +260,7 @@ export const copy: Record<Locale, Dictionary> = {
       product: 'Produk Efolusi',
       legal: 'Legal',
       note: 'Kunci API bursa tidak pernah keluar dari aplikasi Cuwan. Situs ini hanya halaman pemasaran dan legal.',
+      rights: '© 2026 PT Efolusi Dunia Teknologi. Sumber situs ini adalah contoh penerapan Meridian.',
     },
     privacy: {
       title: 'Privasi',
